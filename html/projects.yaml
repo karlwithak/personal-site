@@ -1,0 +1,55 @@
+---
+nowradio:
+  title: Now Radio
+  date: Jan - May 2015
+  link: http://nowrad.io
+  img: nowradio.png
+  about:
+    - Internet radio player web app
+    - Allows users to easily navigate between stations and genre
+    - Draws from over 8000 stations from around the world
+    - Built with Python, Flask, PostgreSQL, Nginx, Gunicorn
+
+lazermaze:
+  title: LazerMaze
+  date: September 2013 - January 2014
+  link: https://play.google.com/store/apps/details?id=nkhrynui.ca.uwaterloo.csclub.LazerMaze
+  img: lazermaze.png
+  about:
+    - A fun and simple Android game that lets you shoot lazers!
+    - Written using OOP, with rich animations and synchronized threads
+    - Created in Java using Eclipse IDE
+
+soolax:
+  title: Soo Lacrosse Club
+  date: March 2012 - present
+  link: http://www.soolacrosse.ca
+  img: soolax.png
+  about:
+    - Created an online registration/payment interface and player database for local lacrosse club
+    - Independently designed front and back end, including several interfaces to allow club owner to easily update player information
+    - Saved the club hundreds of dollars and served over 400 users
+    - Created using HTML5, JavaScript, PHP and MySQL
+
+verticalleap:
+  title: Vertical Leap Measure
+  date: May - June 2013
+  link: https://play.google.com/store/apps/details?id=nkhrynui.ca.uwaterloo.csclub.verticalleap
+  img: screen1.png
+  about:
+	- An Android app that estimates the users vertical leap
+	- Uses gyroscope and accelerometer along with a physics algorithm
+	- Allows you to keep track of highest jump and reset it
+	- Written in Java using Eclipse IDE
+
+healthysteps:
+  title: Your Healthy Steps
+  date: January - February 2014
+  link: http://yourhealthysteps.com
+  img: healthySteps.png
+  about:
+  	- A website I co-created for a home nutrition and fitness company
+  	- Developed and with Joomla! content management system
+  	- Also implemented custom JavaScript modules
+
+
