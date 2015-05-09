@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="text/html; charset=UTF-8">
+		<title>text to image</title>
+		<script type="text/javascript">//<![CDATA[ 
+/****************************************************
+* text to image: converts text to image which can then be converted back to original text with sister tool
+* created by Nicholas Hrynuik on November 20th 2013
+********************************************************/  
+		
+		function create() {
+			//This first section converts the text to an array of ascii numbers that is divisible by 3.
+			var s = document.getElementById("txtarea").value;
+			var holder = document.getElementById("imageHolder");
+			var s2 = "";
+			for (var i = 0; i < s.length; i++) {
+				s2 += s.charAt(i).charCodeAt(0) + " ";
+			}
+			var missing = (s2.split(" ").length - 1) % 3;
+			if (missing != 0) {
+				for (var j = 0; j < 3 - missing; j++) {
+					s2 += "0 ";
+				}
+			}
+			s2 = s2.substring(0, s2.length - 1);
+			s2 = s2.split(" ");
+
+			//Every three letters is converted into a single pixel where the first letter represents the red value,
+			//	the second letter represents the green value, and the third represents the blue value of the pixel.
+			//This works because each colour value has a range of 0-255 which is the same as the extended ascii table.
+			//The image is drawn pixel by pixel onto the canvas.
+			//The canvas is always a square or a square minus one row to make the image smaller
+			//For example if the image would have looked like this: XXX  It will actually look like this XXX
+			//														XXO                                  XXO
+			//*Where O represents an empy pixel 					OOO                                      
+																
+			var can = document.getElementById('canvas1');
+			var ctx = can.getContext('2d');
+			var size = Math.ceil(Math.sqrt(s2.length / 3));
+			can.width = size;
+			can.height = (size - Math.floor(size - ((s2.length / 3) / size)));
+			var count = 0;
+			for (var y = 0; y < size && count < s2.length; y += 1) {
+				for (var x = 0; x < size && count < s2.length; x += 1) {
+					ctx.fillStyle = "rgba(" + s2[count++] + "," + s2[count++] + "," + s2[count++] + ",1)";
+					ctx.fillRect(x, y, 1, 1);
+				}
+			}
+			
+			//converts the canvas to and image that the user can save
+			var img = new Image();
+			img.src = can.toDataURL();
+			holder.innerHTML = "";
+			holder.appendChild(img);
+		}
+		//]]>;  
+		</script>	  
+	</head>
+	<body>
+	<canvas style="display:none" height="0" width="0" id="canvas1"></canvas>
+	<br>
+	<a onclick="create()" href="javascript:void(0);"> click here to generate </a>
+	<textarea id="txtarea"></textarea><br><br>
+	Generated image: <br>
+	<div id="imageHolder" style="padding:5px; border: solid black 1px"></div>
+	</body>
+</html>

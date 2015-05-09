@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="description" content="Nicholas Hrynuik's personal webpage">
+<meta name="keywords" content="Nicholas Hrynuik, nick">
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scaleable=no, width=device-width" />
+<meta name="HandheldFriendly" content="true" />
+<style>
+	a:link {text-decoration: none; font-size:1.6em; color:white;}      /* unvisited link */
+	a:visited {text-decoration: none; font-size:1.6em; color:white;}  /* visited link */
+	a:hover {text-decoration: none; font-size:1.6em; color:green;}  /* mouse over link */
+	a:active {text-decoration: none; font-size:1.6em; color:grey;}  /* selected link */ 
+
+	img {
+		position:absolute;
+		width:110px;
+		height:90px;
+	}
+	body {
+		background:#000;
+		overflow:auto;
+		overflow-x:hidden;
+		overflow-y:hidden;
+	}
+	.container {
+		position:relative;
+		width:100%;
+		height:100%;
+		vertical-align:middle;
+		font-family: "Courier New", "Lucida Console", Arial;
+	}
+
+	.left {
+		text-size:1em;
+		position:absolute;
+		width:100px;
+		top:49%;
+		left:20%;
+		height:100px;
+		text-align:center;
+	}
+
+	.right {
+		position:absolute;
+		width:100px;
+		top:49%;
+		right:20%;
+		height:100px;
+		text-align:center;
+	}
+	#corner1 {
+		color:cyan;
+		background:black;
+	}
+	#corner2 {
+		color: black;	
+	}
+	.corner {
+		position:absolute; 
+		font-family:monospace;
+		border-left: solid white 2px;
+		border-top: solid white 2px; 
+		font-size:1.2em;
+		right:0px; 
+		bottom:0px; 
+		padding:6px 7px;
+		-moz-border-top-left-radius: 15px;
+		border-top-left-radius: 15px
+	}
+	canvas {
+		/*height:100%;
+		width: 100%;*/
+		background-color:black;
+	}
+</style>
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+<title>
+Nicholas Hrynuik - Home
+</title>
+</head>
+
+<body>
+	<div id="rainbowContent" style="display: none;">
+		<div id="rainbowContainer">
+	    	<div id="tile1" class="tile"></div>
+	    	<div id="tile2" class="tile"></div>
+	    	<div id="tile3" class="tile"></div>
+	    	<div id="tile4" class="tile"></div>
+	    	<div id="tile5" class="tile"></div>
+	    	<div id="tile6" class="tile"></div>
+		</div>
+	</div>	
+
+
+	<div class="container">
+		<canvas id="tutorial"></canvas>
+		<div class="left">
+			<a href="projects/"> projects </a>
+		</div>
+
+		<div class="right">
+			<a href="info/"> info </a>
+		</div>
+
+	</div>	
+
+
+	<div id="corner1" class="corner" style="display:none">
+    	<b>lasers</b><br>
+   		made with: HTML5 canvases and JavaScript<br>
+		about: LazerMaze for Android now available!<br>
+    	other backgrounds:<a style="font-size:1em" href="/?clouds">clouds</a>|<a style="font-size:1em" href="/pages/terminal.html">terminal</a> 
+	</div>
+	<div id="corner2" class="corner" style="display:none">
+   		<b>clouds</b><br>
+ 		made with: jQuery<br>
+		about: catch them before they float away<br>
+   		other backgrounds:<a style="font-size:1em" href="/?laser">laser</a>|<a style="font-size:1em" href="/pages/terminal.html">terminal</a>
+	</div>
+	<script src="animation.js"> </script>
+	</body>
+</html>
