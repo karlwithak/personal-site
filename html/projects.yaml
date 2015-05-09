@@ -1,64 +1,59 @@
 ---
-test: hello
-nowradio:
-  title: Now Radio
-  date: Jan - May 2015
-  link: http://nowrad.io
-  img: nowradio.png
-  about: >
-    Internet radio player web app, allows users to easily navigate between stations and genre.
-    Draws from over 8000 stations from around the world.
-  technologies:
-    - Python + Flask + Gunicorn
-    - PostgreSQL
-    - Nginx
-    - JavaScript + CSS3 + HTML5
+projects:
+  - title: Now Radio
+    date: Jan - May 2015
+    link: http://nowrad.io
+    img: nowradio.png
+    about: >
+      Internet radio player web app, allows users to easily navigate between stations and genre.
+      Draws from over 8000 stations from around the world.
+    technologies:
+      - Python + Flask + Gunicorn
+      - PostgreSQL
+      - Nginx
+      - JavaScript + CSS3 + HTML5
 
-lazermaze:
-  title: LazerMaze
-  date: September 2013 - January 2014
-  link: https://play.google.com/store/apps/details?id=nkhrynui.ca.uwaterloo.csclub.LazerMaze
-  img: lazermaze.png
-  about: A fun and simple Android game that lets you shoot lazers!
-  technologies:
-    - Java
-    - Android
+  - title: LazerMaze
+    date: September 2013 - January 2014
+    link: https://play.google.com/store/apps/details?id=nkhrynui.ca.uwaterloo.csclub.LazerMaze
+    img: lazermaze.png
+    about: A fun and simple Android game that lets you shoot lazers!
+    technologies:
+      - Java
+      - Android
 
-soolax:
-  title: Soo Lacrosse Club
-  date: March 2012 - present
-  link: http://www.soolacrosse.ca
-  img: soolax.png
-  about: >
-    Created an online registration/payment interface and player database for local lacrosse club.
-    I independently designed front and back end, including several interfaces to allow club owner
-    to easily update player information. Has processed over 1000 player registrations.
-  technologies:
-    - JavaScript + CSS3 + HTML5
-    - PHP
-    - MySQL
+  - title: Soo Lacrosse Club
+    date: March 2012 - present
+    link: http://www.soolacrosse.ca
+    img: soolax.png
+    about: >
+      Created an online registration/payment interface and player database for local lacrosse club.
+      I independently designed front and back end, including several interfaces to allow club owner
+      to easily update player information. Has processed over 1000 player registrations.
+    technologies:
+      - JavaScript + CSS3 + HTML5
+      - PHP
+      - MySQL
 
-verticalleap:
-  title: Vertical Leap Measure
-  date: May - June 2013
-  link: https://play.google.com/store/apps/details?id=nkhrynui.ca.uwaterloo.csclub.verticalleap
-  img: screen1.png
-  about: >
-    An Android app that estimates the users vertical leap. Uses gyroscope and accelerometer along
-    with a physics algorithm to calculate jump height. Allows users to keep track of highest jump.
-  technologies:
-    - Java
-    - Android
+  - title: Vertical Leap Measure
+    date: May - June 2013
+    link: https://play.google.com/store/apps/details?id=nkhrynui.ca.uwaterloo.csclub.verticalleap
+    img: screen1.png
+    about: >
+      An Android app that estimates the users vertical leap. Uses gyroscope and accelerometer along
+      with a physics algorithm to calculate jump height. Allows users to keep track of highest jump.
+    technologies:
+      - Java
+      - Android
 
-healthysteps:
-  title: Your Healthy Steps
-  date: January - February 2014
-  link: http://yourhealthysteps.com
-  img: healthySteps.png
-  about: A website I co-created for a home nutrition and fitness company.j23
-  technologies:
-  - Joomla! CMS
-  - JavaScript + CSS3 + HTML5
+  - title: Your Healthy Steps
+    date: January - February 2014
+    link: http://yourhealthysteps.com
+    img: healthySteps.png
+    about: A website I co-created for a home nutrition and fitness company.j23
+    technologies:
+      - Joomla! CMS
+      - JavaScript + CSS3 + HTML5
 
 
 

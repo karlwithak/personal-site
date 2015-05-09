@@ -1,0 +1,23 @@
+{% extends "base.js.html" %}
+
+{% block title %} Projects {% endblock %}
+
+{% block content %}
+    {% for project in projects %}
+        <h3>{{ project.title }}</h3>
+        <p>
+            Date: {{ project.date }} <br>
+            link: {{ project.link }} <br>
+            image: <img src="img/{{ project.img }}">
+        </p>
+        <p>
+            {{ project.about }}
+        </p>
+        Technologies:
+        <ul>
+            {% for tech in project.technologies %}
+                <li>{{ tech }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+{% endblock %}
