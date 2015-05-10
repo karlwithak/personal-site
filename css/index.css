@@ -1,6 +1,25 @@
+html {
+    height: 100%;
+}
+
+body {
+	background:skyblue;
+	overflow:auto;
+	overflow-x:hidden;
+	overflow-y:hidden;
+    height: 100%;
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     font-size:1.6em;
+}
+
+@media (max-width: 500px) {
+    a {
+        font-size: 1.2em;
+    }
 }
 a:link {
     color:white;
@@ -21,13 +40,6 @@ img {
 	height:90px;
 }
 
-body {
-	background:skyblue;
-	overflow:auto;
-	overflow-x:hidden;
-	overflow-y:hidden;
-}
-
 .container {
 	position:relative;
 	width:100%;
@@ -35,6 +47,8 @@ body {
 	vertical-align:middle;
     font-size: 1.33em;
     font-family: monospace;
+    display: block;
+    overflow: hidden;
 }
 
 .left {
