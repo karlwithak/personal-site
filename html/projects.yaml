@@ -5,7 +5,7 @@ projects:
     link: http://nowrad.io
     img: nowradio.png
     about: >
-      Internet radio player web app, allows users to easily navigate between stations and genre.
+      Internet radio player web app, allows users to easily navigate between stations and genres.
       Draws from over 8000 stations from around the world.
     technologies:
       - Python + Flask + Gunicorn
@@ -38,7 +38,7 @@ projects:
   - title: Vertical Leap Measure
     date: May - June 2013
     link: https://play.google.com/store/apps/details?id=nkhrynui.ca.uwaterloo.csclub.verticalleap
-    img: screen1.png
+    img: verticalLeap.png
     about: >
       An Android app that estimates the users vertical leap. Uses gyroscope and accelerometer along
       with a physics algorithm to calculate jump height. Allows users to keep track of highest jump.

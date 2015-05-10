@@ -3,21 +3,25 @@
 {% block title %} Projects {% endblock %}
 
 {% block content %}
+    <h1>Projects</h1>
     {% for project in projects %}
-        <h3>{{ project.title }}</h3>
-        <p>
-            Date: {{ project.date }} <br>
-            link: {{ project.link }} <br>
-            image: <img src="img/{{ project.img }}">
-        </p>
-        <p>
-            {{ project.about }}
-        </p>
-        Technologies:
-        <ul>
-            {% for tech in project.technologies %}
-                <li>{{ tech }}</li>
-            {% endfor %}
-        </ul>
+        <div class="projectBlock">
+            <h2>{{ project.title }}</h2>
+            <div class="projectText" style="background-image: url(img/{{ project.img }})">
+                <div class="imageCover">
+                    <p class="projectData">{{ project.date }}</p>
+                    <p class="projectData">{{ project.about }}</p>
+                    <span class="projectData">Technologies:</span>
+                    <ul class="projectData">
+                        {% for tech in project.technologies %}
+                            <li>{{ tech }}</li>
+                        {% endfor %}
+                    </ul>
+                    <a class="projectData" href="{{ project.link }}" target="_blank">
+                        Check It Out
+                    </a>
+                </div>
+            </div>
+        </div>
     {% endfor %}
 {% endblock %}
