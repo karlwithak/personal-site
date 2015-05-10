@@ -1,0 +1,55 @@
+body {
+    background-color: lightblue;
+    font-size: 1.1em;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color:grey;
+}
+a:visited {
+    color:grey;
+}
+a:hover {
+    color:white;
+}
+a:active {
+    color:black;
+}
+
+div#content {
+    text-align: center;
+}
+
+div.clearFix {
+    clear: both;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: monospace;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: monospace;
+}
+
+h4 {
+    font-size: 1.3em;
+    font-family: monospace;
+}
+
+img#me {
+    width: 20em;
+}
+
+section {
+    text-align: left;
+    max-width: 45em;
+    display: inline-block;
+}

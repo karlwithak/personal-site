@@ -1,5 +1,6 @@
 body {
     background-color: lightblue;
+    font-family: sans-serif;
 }
 
 div.projectBlock {
@@ -30,6 +31,7 @@ div.projectText:hover {
     display: none;
     color: white;
     text-align: left;
+    font-size: 1.1em;
 }
 
 a.projectData {
@@ -54,4 +56,15 @@ div#content {
 
 div.clearFix {
     clear: both;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: monospace;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: monospace;
 }

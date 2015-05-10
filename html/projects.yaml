@@ -11,7 +11,8 @@ projects:
       - Python + Flask + Gunicorn
       - PostgreSQL
       - Nginx
-      - JavaScript + CSS3 + HTML5
+      - CSS3 + HTML5
+      - JavaScript + jQuery + Velocity.js
 
   - title: LazerMaze
     date: September 2013 - January 2014
@@ -31,7 +32,8 @@ projects:
       I independently designed front and back end, including several interfaces to allow club owner
       to easily update player information. Has processed over 1000 player registrations.
     technologies:
-      - JavaScript + CSS3 + HTML5
+      - CSS3 + HTML5
+      - JavaScript + jQuery
       - PHP
       - MySQL
 
@@ -53,7 +55,8 @@ projects:
     about: A website I co-created for a home nutrition and fitness company.j23
     technologies:
       - Joomla! CMS
-      - JavaScript + CSS3 + HTML5
+      - CSS3 + HTML5
+      - JavaScript + jQuery
 
 
 

@@ -1,0 +1,52 @@
+---
+jobs:
+  - title: Software Developer
+    company: BigRoad Inc. (Marketing Department)
+    companyLink: http://www.bigroad.com
+    location: Kitchener, On
+    date: January - April 2015
+    responsibilities:
+      - Designed, implemented and tested new features for the Bigroad web and mobile applications.
+      - Worked with marketing team to improve that
+    technologies:
+      - Android
+      - iOS + Objective-C++
+      - HTML5 + CSS3
+      - Javascript + Underscore.js
+      - Java + JSP + Tomcat
+      - PostgreSQL
+      - JIRA + Crucible
+
+  - title: Software Developer
+    company: BigRoad Inc. (Engineering Department)
+    companyLink: http://www.bigroad.com
+    location: Kitchener, On
+    date: May - August 2014
+    responsibilities:
+      - Designed, implemented and tested new features for the BigRoad web application.
+      - Worked with senior developers and independently to fix bugs and make improvements on the
+        front and back end.
+      - Developed Ansible scripts for automating web application server deployment.
+    technologies:
+      - HTML5 + CSS3
+      - Javascript + Underscore.js
+      - Java + JSP + Tomcat
+      - PostgreSQL
+      - Ansible
+      - JIRA + Crucible
+
+  - title: eBusiness Specialist
+    company: Bank of Montreal InvestorLine
+    companyLink: http://www.bmo.com/self-directed
+    location: Toronto, On
+    date: September 2012 - December 2013
+    responsibilities:
+      - Created and updated English/French web pages according to product/feature specifications
+      - Pro-actively and independently generated tools such as Greasemonkey scripts and web
+        applications that increased personal and co-worker productivity
+    technologies:
+      - HTML + CSS
+      - JavaScript
+
+
+

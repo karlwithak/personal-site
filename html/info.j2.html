@@ -1,22 +1,50 @@
-{% extends "base.js.html" %}
+{% extends "base.j2.html" %}
 
-{% block title %} Info {% endblock %}
+{% block styles %}
+    <link rel="stylesheet" type="text/css" href="css/info.css">
+{% endblock %}
+
+{% block title %} Nicholas Hrynuik - Info {% endblock %}
 
 {% block content %}
-    <h3> Nicholas Karl Hrynuik </h3>
+    <h1> Info </h1>
+    <section>
+        <h3> About Me </h3>
+        <p>
+            I am currently attending the University of Waterloo for Computer Science.<br>
+            I have a passion for programming, basketball and very long books.<br>
+            You can contact me at nick@hrynuik.com
+        </p>
 
-    <img src="img/self2.png">
-    <p>
-        I am currently attending the University of Waterloo for Computer Science.
-        I have experience creating mobile, software, and web based projects, most of which I have done independently and in my spare time.
-        I have a passion for programming, basketball and lacrosse. <br><br>
-        Links to social media, projects and email address:<br>
-    </p>
+        <h3> Work Experience </h3>
+        {% for job in jobs %}
+            <h4>
+                {{ job.title }} at <a href="{{ job.companyLink }}" target="_blank">{{ job.company }}</a>
+            </h4>
+            <p>
+                {{ job.location }}, {{ job.date }}
+            </p>
+            Responsibilities:
+            <ul>
+                {% for resp in job.responsibilities %}
+                    <li> {{ resp }}</li>
+                {% endfor %}
+            </ul>
+            Technologies:
+            <ul>
+                {% for tech in job.technologies %}
+                    <li> {{ tech }}</li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
 
-    <ul>
-        <li> <a href="info/resume4.pdf" target="_blank"> Resume </a></li>
-        <li> <a href="https://github.com/karlwithak" target="_blank"> Github</a> </li>
-        <li> <a href="https://twitter.com/2karl2" target="_blank"> Twitter </a></li>
-        <li> Email: nick@hrynuik.com </li>
-    </ul>
+        <h3> More Me </h3>
+        <ul>
+            <li> <a href="info/resume4.pdf" target="_blank"> Resume + CV </a></li>
+            <li> <a href="https://github.com/karlwithak" target="_blank"> GitHub</a> </li>
+            <li> <a href="https://twitter.com/2karl2" target="_blank"> Twitter </a></li>
+        </ul>
+    </section>
+    <img id="me" src="img/self2.png">
+
 {% endblock %}

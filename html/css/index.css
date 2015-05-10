@@ -1,29 +1,43 @@
-a:link {text-decoration: none; font-size:1.6em; color:white;}      /* unvisited link */
-a:visited {text-decoration: none; font-size:1.6em; color:white;}  /* visited link */
-a:hover {text-decoration: none; font-size:1.6em; color:green;}  /* mouse over link */
-a:active {text-decoration: none; font-size:1.6em; color:grey;}  /* selected link */
+a {
+    text-decoration: none;
+    font-size:1.6em;
+}
+a:link {
+    color:white;
+}
+a:visited {
+    color:white;
+}
+a:hover {
+    color:grey;
+}
+a:active {
+    color:black;
+}
 
 img {
 	position:absolute;
 	width:110px;
 	height:90px;
 }
+
 body {
-	background:#000;
+	background:skyblue;
 	overflow:auto;
 	overflow-x:hidden;
 	overflow-y:hidden;
 }
+
 .container {
 	position:relative;
 	width:100%;
 	height:100%;
 	vertical-align:middle;
-	font-family: "Courier New", "Lucida Console", Arial;
+    font-size: 1.33em;
+    font-family: monospace;
 }
 
 .left {
-	text-size:1em;
 	position:absolute;
 	width:100px;
 	top:49%;

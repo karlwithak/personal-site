@@ -1,7 +1,6 @@
 'use strict';
 
 $(function(){
-	$("body").css("background", "skyblue");
 	var container = $(".container");
 	container.css("background", "skyblue");
 	var HEIGHT = $(window).height() - 20;
