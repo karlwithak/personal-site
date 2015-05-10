@@ -7,7 +7,9 @@ jobs:
     date: January - April 2015
     responsibilities:
       - Designed, implemented and tested new features for the Bigroad web and mobile applications.
-      - Worked with marketing team to improve that
+      - Worked with marketing team to make improvements aimed at converting users from the free trial.
+      - Created demo data feature, allowing users to explore the web and mobile
+        app before other drivers joined their fleet.
     technologies:
       - Android
       - iOS + Objective-C++
@@ -47,6 +49,3 @@ jobs:
     technologies:
       - HTML + CSS
       - JavaScript
-
-
-

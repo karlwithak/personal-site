@@ -17,26 +17,31 @@
         </p>
 
         <h3> Work Experience </h3>
-        {% for job in jobs %}
-            <h4>
-                {{ job.title }} at <a href="{{ job.companyLink }}" target="_blank">{{ job.company }}</a>
-            </h4>
-            <p>
-                {{ job.location }}, {{ job.date }}
-            </p>
-            Responsibilities:
-            <ul>
-                {% for resp in job.responsibilities %}
-                    <li> {{ resp }}</li>
-                {% endfor %}
-            </ul>
-            Technologies:
-            <ul>
-                {% for tech in job.technologies %}
-                    <li> {{ tech }}</li>
-                {% endfor %}
-            </ul>
-        {% endfor %}
+        <ul>
+            {% for job in jobs %}
+                <li>
+                    <h4>
+                        {{ job.title }} at
+                        <a href="{{ job.companyLink }}" target="_blank">{{ job.company }}</a>
+                    </h4>
+                    <p>
+                        {{ job.location }}, {{ job.date }}
+                    </p>
+                    Responsibilities:
+                    <ul>
+                        {% for resp in job.responsibilities %}
+                            <li> {{ resp }}</li>
+                        {% endfor %}
+                    </ul>
+                    Technologies:
+                    <ul>
+                        {% for tech in job.technologies %}
+                            <li> {{ tech }}</li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
 
         <h3> More Me </h3>
         <ul>
