@@ -23,10 +23,9 @@
                     <h4>
                         {{ job.title }} at
                         <a href="{{ job.companyLink }}" target="_blank">{{ job.company }}</a>
+                        <br>
+                        <span> {{ job.location }}, {{ job.date }} </span>
                     </h4>
-                    <p>
-                        {{ job.location }}, {{ job.date }}
-                    </p>
                     Responsibilities:
                     <ul>
                         {% for resp in job.responsibilities %}

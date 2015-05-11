@@ -1,5 +1,19 @@
 ---
 projects:
+  - title: Bnb Watcher
+    date: April - May 2015
+    link: http://bnbwatcher.com
+    img: bnbwatcher.png
+    about: >
+      Watch for new rooms on Airbnb. Get notified via email when rooms you want are posted, so you
+      can see them first.
+    technologies:
+      - Node.js + Express + Jade
+      - PostgreSQL
+      - Nginx
+      - HTML5 + CSS3 + Less
+      - JavaScript + jQuery
+
   - title: Now Radio
     date: Jan - May 2015
     link: http://nowrad.io

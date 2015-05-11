@@ -14,6 +14,8 @@ a:active {
 h4 {
     font-size: 1.3em;
     font-family: monospace;
+    margin-bottom: 5px;
+    margin-top: 25px;
 }
 
 img#me {
