@@ -1,0 +1,61 @@
+body {
+    background-color: lightblue;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
+h1 {
+    font-size: 3em;
+    font-family: monospace;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: monospace;
+}
+
+div.clearFix {
+    clear: both;
+}
+
+div#content {
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    color: white !important;
+    font-family: monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+nav a:hover {
+    color: lightblue !important;
+}
+nav a:active {
+    color: grey !important;
+}
+
+a#projectsLink {
+    float: left;
+    margin-left: 20px;
+}
+
+a#infoLink {
+    float: right;
+    margin-right: 20px;
+}
