@@ -1,5 +1,23 @@
 ---
 jobs:
+  - title: Software Engineer Intern (Business Team)
+    company: Yelp
+    companyLink: http://www.yelp.com
+    location: San Francisco, California & Remote
+    date: September 2015 - Present
+    responsibilities:
+      - Designed, implemented and tested new features for Yelp's business owner facing site.
+        (http://biz.yelp.com).
+      - Worked with team members to build large features to increase salesperson productivity
+      - Redesigned several emails that are sent to thousands of business owners every day.
+    technologies:
+      - Python
+      - Pyramid
+      - Cheetah
+      - HTML5 + CSS3 + SCSS
+      - JIRA + Review Board
+      - Javascript + Closure Compiler
+
   - title: Software Developer
     company: BigRoad Inc. (Marketing Department)
     companyLink: http://www.bigroad.com
