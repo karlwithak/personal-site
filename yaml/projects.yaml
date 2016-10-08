@@ -1,18 +1,29 @@
 ---
 projects:
-  - title: Bnb Watcher
-    date: April - May 2015
-    link: http://bnbwatcher.com
-    img: bnbwatcher.png
+  - title: The Young Canadian
+    date: August - October 2016
+    link: http://theyoungcanadian.ca
+    img: tyc-screenshot.png
     about: >
-      Watch for new rooms on Airbnb. Get notified via email when rooms you want are posted, so you
-      can see them first.
+      A multi-partisan news publication, written for and by young canadians.
     technologies:
-      - Node.js + Express + Jade
-      - PostgreSQL
-      - Nginx
-      - HTML5 + CSS3 + Less
-      - JavaScript + jQuery
+      - Node.js
+      - Jade
+      - HTML5 + CSS3
+
+#  - title: Bnb Watcher
+#    date: April - May 2015
+#    link: http://bnbwatcher.com
+#    img: bnbwatcher.png
+#    about: >
+#      Watch for new rooms on Airbnb. Get notified via email when rooms you want are posted, so you
+#      can see them first.
+#    technologies:
+#      - Node.js + Express + Jade
+#      - PostgreSQL
+#      - Nginx
+#      - HTML5 + CSS3 + Less
+#      - JavaScript + jQuery
 
   - title: Now Radio
     date: Jan - May 2015
@@ -37,20 +48,6 @@ projects:
       - Java
       - Android
 
-  - title: Soo Lacrosse Club
-    date: March 2012 - present
-    link: http://www.soolacrosse.ca
-    img: soolax.png
-    about: >
-      Created an online registration/payment interface and player database for local lacrosse club.
-      I independently designed front and back end, including several interfaces to allow club owner
-      to easily update player information. Has processed over 1000 player registrations.
-    technologies:
-      - CSS3 + HTML5
-      - JavaScript + jQuery
-      - PHP
-      - MySQL
-
   - title: Vertical Leap Measure
     date: May - June 2013
     link: https://play.google.com/store/apps/details?id=nkhrynui.ca.uwaterloo.csclub.verticalleap
@@ -61,16 +58,4 @@ projects:
     technologies:
       - Java
       - Android
-
-  - title: Your Healthy Steps
-    date: January - February 2014
-    link: http://yourhealthysteps.com
-    img: healthySteps.png
-    about: A website I co-created for a home nutrition and fitness company.j23
-    technologies:
-      - Joomla! CMS
-      - CSS3 + HTML5
-      - JavaScript + jQuery
-
-
 
