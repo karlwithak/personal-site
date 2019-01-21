@@ -1,14 +1,8 @@
-a:link {
-    color:grey;
-}
-a:visited {
-    color:grey;
-}
-a:hover {
+a:link, a:visited {
     color:white;
 }
-a:active {
-    color:black;
+a:hover, a:active {
+    color:grey;
 }
 
 h4 {
