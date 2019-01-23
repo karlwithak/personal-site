@@ -25,6 +25,9 @@ div.clearFix {
 div#content {
     text-align: center;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav {
@@ -59,4 +62,13 @@ a#projectsLink {
 a#infoLink {
     float: right;
     margin-right: 20px;
+}
+
+img.art {
+    max-width: 500px;
+    margin: 30px;
+}
+
+a.pink { 
+    color: fuchsia;
 }
